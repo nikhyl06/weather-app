@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@200;400;600');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.search-page{
+    width: 450px;
+    position: relative;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: #24262b;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero{
+    height: 200px;
+    margin: 40px 80px 30px 80px;
+}
+
+.label{
+    font-size: 16px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 30px 0 0 0;
+    position: relative;
+}
+
+.search-box{
+    height: 100%;
+    padding: 6px;
+    font-size: 18px;
+    text-indent: 10px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+}
+
+.search-btn{
+    position: relative;
+    font-size: 16px;
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    border: none;
+    background-color: #24262b;
+    top: 2px;
+    right: 2px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.search-btn > i{
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.search-box:focus{
+    outline: none;
+}

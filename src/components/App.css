@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@200;400;600');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.App{
+    position: relative;
+    background-color: #383a3e;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
